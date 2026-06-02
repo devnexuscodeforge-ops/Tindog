@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #ff4c68;
+  padding: 20px 10%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 20px;
+}
+
+/* HERO */
+#hero {
+  background-color: #ff4c68;
+  padding: 60px 0;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+  line-height: 1.3;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.hero-phone {
+  width: 280px;
+  max-width: 100%;
+}
+
+/* FEATURES */
+#features {
+  background-color: white;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+#features h5 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#features p {
+  color: gray;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ef8172;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.round-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* PRESS */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 180px;
+  margin: 20px;
+}
+
+/* PRICING */
+.price-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.price-header {
+  background-color: #f7f7f7;
+  padding: 15px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.price-body {
+  padding: 25px;
+}
+
+/* DOWNLOAD */
+#download {
+  background-color: #ff4c68;
+}
+
+#download h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  background-color: white;
+  color: gray;
+}
+
+/* MOBILE SCREEN */
+@media (max-width: 991px) {
+  #hero {
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-phone {
+    margin-top: 40px;
+  }
+}
