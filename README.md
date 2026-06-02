@@ -198,7 +198,7 @@ This project can be improved by adding:
 
 ## 👨‍💻 Author
 
-Made by **Hashmatullah Khan**  
+Made by **Bilal tabibi**  
 This project was created for learning and practicing frontend web development.
 
 ---
